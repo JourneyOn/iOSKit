@@ -6,3 +6,23 @@
 #
 # Pods/
 
+# XCode noise
+*.build/
+build/
+DerivedData/
+docs/
+*.mode1v3
+*.pbxuser
+*.perspectivev3
+*.orig
+*.pyc
+*.py~
+xcuserdata
+xcshareddata
+.*
+!/.gitignore
+
+# OSX noise
+.DS_Store
+*/.DS_Store
+profile
