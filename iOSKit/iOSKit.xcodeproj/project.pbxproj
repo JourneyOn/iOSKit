@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FECAB232198942650093306B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECAB231198942650093306B /* Foundation.framework */; };
+		FECAB240198942650093306B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECAB23F198942650093306B /* XCTest.framework */; };
+		FECAB241198942650093306B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECAB231198942650093306B /* Foundation.framework */; };
+		FECAB243198942650093306B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECAB242198942650093306B /* UIKit.framework */; };
+		FECAB246198942650093306B /* libiOSKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FECAB22E198942650093306B /* libiOSKit.a */; };
+		FECAB24C198942650093306B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FECAB24A198942650093306B /* InfoPlist.strings */; };
+		FECAB24E198942650093306B /* iOSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FECAB24D198942650093306B /* iOSKitTests.m */; };
+		FECAB26B198942D60093306B /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = FECAB265198942D60093306B /* UIView+Geometry.m */; };
+		FECAB26C198942D60093306B /* UIButtonEnlargeHitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FECAB268198942D60093306B /* UIButtonEnlargeHitTest.m */; };
+		FECAB26D198942D60093306B /* UIViewEnlargeHitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FECAB26A198942D60093306B /* UIViewEnlargeHitTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FECAB244198942650093306B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FECAB226198942650093306B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FECAB22D198942650093306B;
+			remoteInfo = iOSKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FECAB22C198942650093306B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FECAB22E198942650093306B /* libiOSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECAB231198942650093306B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FECAB235198942650093306B /* iOSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSKit-Prefix.pch"; sourceTree = "<group>"; };
+		FECAB23E198942650093306B /* iOSKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECAB23F198942650093306B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FECAB242198942650093306B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FECAB249198942650093306B /* iOSKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSKitTests-Info.plist"; sourceTree = "<group>"; };
+		FECAB24B198942650093306B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FECAB24D198942650093306B /* iOSKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSKitTests.m; sourceTree = "<group>"; };
+		FECAB264198942D60093306B /* UIView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Geometry.h"; sourceTree = "<group>"; };
+		FECAB265198942D60093306B /* UIView+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Geometry.m"; sourceTree = "<group>"; };
+		FECAB267198942D60093306B /* UIButtonEnlargeHitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonEnlargeHitTest.h; sourceTree = "<group>"; };
+		FECAB268198942D60093306B /* UIButtonEnlargeHitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonEnlargeHitTest.m; sourceTree = "<group>"; };
+		FECAB269198942D60093306B /* UIViewEnlargeHitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEnlargeHitTest.h; sourceTree = "<group>"; };
+		FECAB26A198942D60093306B /* UIViewEnlargeHitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewEnlargeHitTest.m; sourceTree = "<group>"; };
+		FECAB26F198942FE0093306B /* UIKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitHeader.h; sourceTree = "<group>"; };
+		FECAB2701989432E0093306B /* iOSKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSKitHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FECAB22B198942650093306B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECAB232198942650093306B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECAB23B198942650093306B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECAB246198942650093306B /* libiOSKit.a in Frameworks */,
+				FECAB240198942650093306B /* XCTest.framework in Frameworks */,
+				FECAB243198942650093306B /* UIKit.framework in Frameworks */,
+				FECAB241198942650093306B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FECAB225198942650093306B = {
+			isa = PBXGroup;
+			children = (
+				FECAB233198942650093306B /* iOSKit */,
+				FECAB247198942650093306B /* iOSKitTests */,
+				FECAB230198942650093306B /* Frameworks */,
+				FECAB22F198942650093306B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FECAB22F198942650093306B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FECAB22E198942650093306B /* libiOSKit.a */,
+				FECAB23E198942650093306B /* iOSKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FECAB230198942650093306B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FECAB231198942650093306B /* Foundation.framework */,
+				FECAB23F198942650093306B /* XCTest.framework */,
+				FECAB242198942650093306B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FECAB233198942650093306B /* iOSKit */ = {
+			isa = PBXGroup;
+			children = (
+				FECAB2701989432E0093306B /* iOSKitHeader.h */,
+				FECAB262198942D60093306B /* UIKit */,
+				FECAB234198942650093306B /* Supporting Files */,
+			);
+			path = iOSKit;
+			sourceTree = "<group>";
+		};
+		FECAB234198942650093306B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FECAB235198942650093306B /* iOSKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FECAB247198942650093306B /* iOSKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FECAB24D198942650093306B /* iOSKitTests.m */,
+				FECAB248198942650093306B /* Supporting Files */,
+			);
+			path = iOSKitTests;
+			sourceTree = "<group>";
+		};
+		FECAB248198942650093306B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FECAB249198942650093306B /* iOSKitTests-Info.plist */,
+				FECAB24A198942650093306B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FECAB262198942D60093306B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FECAB26F198942FE0093306B /* UIKitHeader.h */,
+				FECAB263198942D60093306B /* Category */,
+				FECAB266198942D60093306B /* Views */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		FECAB263198942D60093306B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FECAB264198942D60093306B /* UIView+Geometry.h */,
+				FECAB265198942D60093306B /* UIView+Geometry.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FECAB266198942D60093306B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FECAB267198942D60093306B /* UIButtonEnlargeHitTest.h */,
+				FECAB268198942D60093306B /* UIButtonEnlargeHitTest.m */,
+				FECAB269198942D60093306B /* UIViewEnlargeHitTest.h */,
+				FECAB26A198942D60093306B /* UIViewEnlargeHitTest.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FECAB22D198942650093306B /* iOSKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECAB251198942660093306B /* Build configuration list for PBXNativeTarget "iOSKit" */;
+			buildPhases = (
+				FECAB22A198942650093306B /* Sources */,
+				FECAB22B198942650093306B /* Frameworks */,
+				FECAB22C198942650093306B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSKit;
+			productName = iOSKit;
+			productReference = FECAB22E198942650093306B /* libiOSKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FECAB23D198942650093306B /* iOSKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECAB254198942660093306B /* Build configuration list for PBXNativeTarget "iOSKitTests" */;
+			buildPhases = (
+				FECAB23A198942650093306B /* Sources */,
+				FECAB23B198942650093306B /* Frameworks */,
+				FECAB23C198942650093306B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FECAB245198942650093306B /* PBXTargetDependency */,
+			);
+			name = iOSKitTests;
+			productName = iOSKitTests;
+			productReference = FECAB23E198942650093306B /* iOSKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FECAB226198942650093306B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = John;
+			};
+			buildConfigurationList = FECAB229198942650093306B /* Build configuration list for PBXProject "iOSKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FECAB225198942650093306B;
+			productRefGroup = FECAB22F198942650093306B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FECAB22D198942650093306B /* iOSKit */,
+				FECAB23D198942650093306B /* iOSKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FECAB23C198942650093306B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECAB24C198942650093306B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FECAB22A198942650093306B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECAB26B198942D60093306B /* UIView+Geometry.m in Sources */,
+				FECAB26D198942D60093306B /* UIViewEnlargeHitTest.m in Sources */,
+				FECAB26C198942D60093306B /* UIButtonEnlargeHitTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECAB23A198942650093306B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECAB24E198942650093306B /* iOSKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FECAB245198942650093306B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FECAB22D198942650093306B /* iOSKit */;
+			targetProxy = FECAB244198942650093306B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FECAB24A198942650093306B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FECAB24B198942650093306B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FECAB24F198942660093306B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FECAB250198942660093306B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FECAB252198942660093306B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSKit/iOSKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FECAB253198942660093306B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSKit/iOSKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FECAB255198942660093306B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSKit/iOSKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSKitTests/iOSKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FECAB256198942660093306B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSKit/iOSKit-Prefix.pch";
+				INFOPLIST_FILE = "iOSKitTests/iOSKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FECAB229198942650093306B /* Build configuration list for PBXProject "iOSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECAB24F198942660093306B /* Debug */,
+				FECAB250198942660093306B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECAB251198942660093306B /* Build configuration list for PBXNativeTarget "iOSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECAB252198942660093306B /* Debug */,
+				FECAB253198942660093306B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECAB254198942660093306B /* Build configuration list for PBXNativeTarget "iOSKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECAB255198942660093306B /* Debug */,
+				FECAB256198942660093306B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FECAB226198942650093306B /* Project object */;
+}
